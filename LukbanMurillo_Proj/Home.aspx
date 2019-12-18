@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="LukbanMurillo_Proj.Home" %>
+<%@ Register Src="~/NavMenuUserControl.ascx" TagName ="WebControl" TagPrefix="TWebControl" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <div>
         <div>
@@ -8,6 +9,12 @@
             </div>
         </div>
 
+        <!-- Nav Menu -->
+        <div>
+            <TWebControl:WebControl ID="BODY" runat ="server" />
+        </div>
+
+        <!-- Main Body - Add to Cart buttons -->
         <div class ="container-fluid">
 
             <div class ="row">

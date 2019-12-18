@@ -11,7 +11,7 @@ namespace LukbanMurillo_Proj
 {
 
 
-    public partial class WebUserControl1
+    public partial class NavMenuUserControl
     {
     }
 }

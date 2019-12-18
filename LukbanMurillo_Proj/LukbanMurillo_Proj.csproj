@@ -69,6 +69,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\airpods.jpg" />
+    <Content Include="assets\apexpro.png" />
+    <Content Include="assets\aspnetcorebook.jpg" />
+    <Content Include="assets\ec1a.jpg" />
+    <Content Include="assets\provkai.png" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -77,6 +82,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Home.aspx" />
     <Content Include="LoginPage.aspx" />
+    <Content Include="LoginPage-master.aspx" />
+    <Content Include="NavMenuUserControl.ascx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -176,6 +183,7 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="styles\footer.css" />
     <Content Include="Web.config" />
     <Content Include="RegisterPage.aspx" />
   </ItemGroup>
@@ -193,6 +201,20 @@
     </Compile>
     <Compile Include="LoginPage.aspx.designer.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage-master.aspx.cs">
+      <DependentUpon>LoginPage-master.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage-master.aspx.designer.cs">
+      <DependentUpon>LoginPage-master.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NavMenuUserControl.ascx.cs">
+      <DependentUpon>NavMenuUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NavMenuUserControl.ascx.designer.cs">
+      <DependentUpon>NavMenuUserControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegisterPage.aspx.cs">
@@ -238,6 +260,7 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
