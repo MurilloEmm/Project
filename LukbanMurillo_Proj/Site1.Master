@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LukbanMurillo_Proj.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.0.0.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/popper.min.js"></script>
+    <link href="styles/footer.css" rel="stylesheet"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <footer class ="page-footer font-small orange pt-4">
+              <!-- Footer Text -->
+  <div class="container-fluid text-center text-md-left" id ="footerDesign">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold" style="color:white;">Murillo, Emmanuele</h5>
+        <p style="color:white;">Did all of the backend for the project & some of the frontend</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold" style="color:white;">Lukban, Mikhail</h5>
+        <p style="color:white;">Did most of the frontend design</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Text -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">UST Academic Year 2019-2020 - ITELEC2 :
+    <a href="https://github.com/MurilloEmm/Project"> Github Repository for the project</a>
+  </div>
+  <!-- Copyright -->
+
+        </footer>
+    </form>
+</body>
+</html>

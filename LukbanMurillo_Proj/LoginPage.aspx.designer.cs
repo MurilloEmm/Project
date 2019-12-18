@@ -10,7 +10,7 @@
 namespace LukbanMurillo_Proj {
     
     
-    public partial class LoginPage {
+    public partial class LoginPage_webform {
         
         /// <summary>
         /// form1 control.

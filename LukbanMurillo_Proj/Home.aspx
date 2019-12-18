@@ -1,16 +1,13 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="LukbanMurillo_Proj.Home" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="LukbanMurillo_Proj.Home" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <div>
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Welcome, user"></asp:Label>
+            <div class ="jumbotron text-center">
+                <h1>Welcome to Lazapee!</h1>
+                <h2>Good morning, Lorem Ipsum</h2
+            </div>
         </div>
-    </form>
-</body>
-</html>
+
+        <h3>Testing Footer Space</h3>
+    </div>
+</asp:Content>

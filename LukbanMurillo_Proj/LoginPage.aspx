@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginPage.aspx.cs" Inherits="LukbanMurillo_Proj.LoginPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginPage-webform.aspx.cs" Inherits="LukbanMurillo_Proj.LoginPage_webform" %>
 
 <!DOCTYPE html>
 
@@ -8,6 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <div>
         <asp:Label ID="Label3" runat="server" Text="LOG IN"></asp:Label>
         <div>
         </div>
@@ -24,6 +25,7 @@
         </p>
         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/RegisterPage.aspx">Sign up for an account</asp:HyperLink>
         <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+        </div>
     </form>
 </body>
 </html>
