@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginPage-webform.aspx.cs" Inherits="LukbanMurillo_Proj.LoginPage_webform" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginPage.aspx.cs" Inherits="LukbanMurillo_Proj.LoginPage_webform" %>
 
 <!DOCTYPE html>
 
