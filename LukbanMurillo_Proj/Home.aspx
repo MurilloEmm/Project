@@ -11,7 +11,9 @@
 
         <!-- Nav Menu -->
         <div>
-            <TWebControl:WebControl ID="BODY" runat ="server" />
+            <div>
+                <TWebControl:WebControl ID="BODY" runat ="server" />
+            </div>
         </div>
 
         <!-- Main Body - Add to Cart buttons -->

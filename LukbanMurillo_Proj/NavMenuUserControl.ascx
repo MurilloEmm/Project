@@ -17,7 +17,7 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Cart</a>
+        <a class="nav-link" href="/CartPage.aspx">Cart</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" style ="color: red;">Logout</a>
