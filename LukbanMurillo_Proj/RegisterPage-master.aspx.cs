@@ -9,7 +9,7 @@ using System.Data;
 
 namespace LukbanMurillo_Proj
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class RegisterPage_master : System.Web.UI.Page
     {
         OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.Jet.OLEDB.4.0; Data Source = C:\Users\Emmanuele Murillo\Desktop\projectDB.mdb");
         OleDbCommand cmd = new OleDbCommand();
@@ -21,7 +21,7 @@ namespace LukbanMurillo_Proj
 
         protected void btnregister_Click(object sender, EventArgs e)
         {
-            cmd.CommandText = "Insert into projectT values('" + txtusername.Text + "','" + txtpassword.Text + "')";
+            cmd.CommandText = "Insert into projectT values('" + Request["txtusername"] + "','" + Request["txtpassword"] + "')";
             cmd.Connection = con;
             con.Open();
             cmd.ExecuteNonQuery();

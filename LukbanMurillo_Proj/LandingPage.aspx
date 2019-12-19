@@ -9,7 +9,7 @@
                     Click <asp:HyperLink runat="server" NavigateUrl="LoginPage-master.aspx">here</asp:HyperLink> to login!
                 </p>
                 <p class ="lead">
-                    Don't have an account? Sign up <asp:HyperLink runat="server" NavigateUrl="Register-master.aspx">here</asp:HyperLink>!
+                    Don't have an account? Sign up <asp:HyperLink runat="server" NavigateUrl="RegisterPage-master.aspx">here</asp:HyperLink>!
                 </p>
             </div>
         </div>

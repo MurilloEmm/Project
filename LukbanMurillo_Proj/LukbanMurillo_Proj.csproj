@@ -86,7 +86,8 @@
     <Content Include="LoginPage.aspx" />
     <Content Include="LoginPage-master.aspx" />
     <Content Include="NavMenuUserControl.ascx" />
-    <Content Include="Register-master.aspx" />
+    <Content Include="RegisterPage-master.aspx" />
+    <Content Include="RegisterPage.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -188,7 +189,6 @@
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="styles\footer.css" />
     <Content Include="Web.config" />
-    <Content Include="RegisterPage.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CartPage.aspx.cs">
@@ -234,12 +234,12 @@
       <DependentUpon>NavMenuUserControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Register-master.aspx.cs">
-      <DependentUpon>Register-master.aspx</DependentUpon>
+    <Compile Include="RegisterPage-master.aspx.cs">
+      <DependentUpon>RegisterPage-master.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Register-master.aspx.designer.cs">
-      <DependentUpon>Register-master.aspx</DependentUpon>
+    <Compile Include="RegisterPage-master.aspx.designer.cs">
+      <DependentUpon>RegisterPage-master.aspx</DependentUpon>
     </Compile>
     <Compile Include="RegisterPage.aspx.cs">
       <DependentUpon>RegisterPage.aspx</DependentUpon>

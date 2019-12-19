@@ -10,7 +10,7 @@
 namespace LukbanMurillo_Proj {
     
     
-    public partial class LoginPage_master {
+    public partial class RegisterPage_master {
         
         /// <summary>
         /// HyperLink1 control.

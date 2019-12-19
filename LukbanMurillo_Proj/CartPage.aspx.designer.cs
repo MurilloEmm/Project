@@ -20,5 +20,50 @@ namespace LukbanMurillo_Proj {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::LukbanMurillo_Proj.NavMenuUserControl BODY;
+        
+        /// <summary>
+        /// apex control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label apex;
+        
+        /// <summary>
+        /// zowie control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label zowie;
+        
+        /// <summary>
+        /// proV control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label proV;
+        
+        /// <summary>
+        /// airpods control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label airpods;
+        
+        /// <summary>
+        /// asp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label asp;
     }
 }

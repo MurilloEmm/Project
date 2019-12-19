@@ -11,7 +11,11 @@ namespace LukbanMurillo_Proj
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            zowie.Text = Session["zowie"].ToString();
+            apex.Text = Session["apex"].ToString();
+            asp.Text = Session["asp"].ToString();
+            proV.Text = Session["proV"].ToString();
+            airpods.Text = Session["airpod"].ToString();
         }
     }
 }
